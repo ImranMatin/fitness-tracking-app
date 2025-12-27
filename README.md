@@ -2,17 +2,6 @@
 
 A modern, cross-platform fitness tracking solution featuring a Next.js web dashboard and a React Native mobile application. This project is specifically designed with an **Android-first approach**, utilizing Material Design principles and optimized performance for Android devices.
 
-## 🏗️ System Architecture
-
-Below is the serverless flow of the application:
-
-```mermaid
-graph TD
-    A[Web & Android App] -->|HTTPS Requests| B[Serverless API / Functions]
-    B -->|Auth| C{Auth Provider}
-    B -->|Read/Write| D[(Database)]
-    C -->|Verified| B
-
 ---
 
 ## ✨ Features
