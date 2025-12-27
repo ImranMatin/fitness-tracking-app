@@ -48,22 +48,64 @@ NEXT_PUBLIC_API_URL        API endpoint for the Web app             http://local
 EXPO_PUBLIC_API_URL        API endpoint for Mobile (use Local IP)   http://192.168.1.X:3000
 DATABASE_URL               Connection string for your database      postgresql:////user:pass@host...
 
+
+## 🏃 Getting Started
+
+1. Prerequisites
+Install Node.js
+
+Install the Expo Go app on your Android device from the Play Store.
+
+2. Run the Web App
+Bash
+
+# Navigate to the web directory
+cd apps/web
+
 # Install dependencies
 npm install
 
 # Run the development server
 npm run dev
+Open http://localhost:3000 to view the dashboard.
 
-Open http://localhost:3000 to view the dashboard.3. Run the Mobile App (Android)Bash# Navigate to the mobile directory
+3. Run the Mobile App (Android)
+Bash
+
+# Navigate to the mobile directory
 cd apps/mobile
 
 # Start Expo
 npx expo start
-Scan the QR code in your terminal using the Expo Go app.Ensure your Android device and PC are on the same Wi-Fi network.
+Scan the QR code in your terminal using the Expo Go app.
 
-📱 Android Optimizations
+Ensure your Android device and PC are on the same Wi-Fi network.
 
-This app avoids generic cross-platform styling in favor of a native Android look:Elevation: Uses the elevation prop for Android to create depth.
+## 📱 Android Optimizations
 
-Ripple Effects: Material Design touch feedback on buttons.Typography: Optimized for Roboto and standard Android font weights.📄 LicenseThis project is licensed under the MIT License. Feel free to use, modify, and distribute it as you see fit.🤝 TroubleshootingIf the mobile app won't load:Check that your EXPO_PUBLIC_API_URL uses your computer's IP address.
-Ensure your firewall isn't blocking port 8081 or 3000.If you see a "Network Request Failed," verify the server is running on your PC.
+This app avoids generic cross-platform styling in favor of a native Android look:
+
+Elevation: Uses the elevation prop for Android to create depth.
+
+Ripple Effects: Material Design touch feedback on buttons.
+
+Typography: Optimized for Roboto and standard Android font weights.
+
+📄 License
+
+This project is licensed under the MIT License. Feel free to use, modify, and distribute it as you see fit.
+
+## 🤝 Troubleshooting
+
+If the mobile app won't load:
+
+Check that your EXPO_PUBLIC_API_URL uses your computer's IP address.
+
+Ensure your firewall isn't blocking port 8081 or 3000.
+
+If you see a "Network Request Failed," verify the server is running on your PC.
+
+
+---
+
+**Would you like me to help you write the `LICENSE` file or a `.env.example` file to go along with this?**
