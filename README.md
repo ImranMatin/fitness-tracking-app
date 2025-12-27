@@ -39,16 +39,17 @@ A modern, cross-platform fitness tracking solution featuring a Next.js web dashb
 ├── .env.example            # Template for environment variables
 └── package.json            # Project dependencies
 
+```
 ---
 
 ## ⚙️ Environment Variables
 
 To run this project, you will need to add the following variables to your .env file in the root or respective app folders:
 
-Variable,                  Description                              Default/Example
-NEXT_PUBLIC_API_URL        API endpoint for the Web app             http://localhost:3000
-EXPO_PUBLIC_API_URL        API endpoint for Mobile (use Local IP)   http://192.168.1.X:3000
-DATABASE_URL               Connection string for your database      postgresql:////user:pass@host...
+| Variable,             |     Description                             | Default/Example                        |
+| NEXT_PUBLIC_API_URL   |     API endpoint for the Web app            | http://localhost:3000                  |
+| EXPO_PUBLIC_API_URL   |     API endpoint for Mobile (use Local IP)  | http://192.168.1.X:3000                |
+| DATABASE_URL          |     Connection string for your database     | postgresql:////user:pass@host...       |
 
 ---
 
