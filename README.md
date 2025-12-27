@@ -39,7 +39,9 @@ A modern, cross-platform fitness tracking solution featuring a Next.js web dashb
 ├── .env.example            # Template for environment variables
 └── package.json            # Project dependencies
 
-⚙️ Environment Variables
+---
+
+## ⚙️ Environment Variables
 
 To run this project, you will need to add the following variables to your .env file in the root or respective app folders:
 
@@ -48,6 +50,7 @@ NEXT_PUBLIC_API_URL        API endpoint for the Web app             http://local
 EXPO_PUBLIC_API_URL        API endpoint for Mobile (use Local IP)   http://192.168.1.X:3000
 DATABASE_URL               Connection string for your database      postgresql:////user:pass@host...
 
+---
 
 ## 🏃 Getting Started
 
@@ -81,6 +84,8 @@ Scan the QR code in your terminal using the Expo Go app.
 
 Ensure your Android device and PC are on the same Wi-Fi network.
 
+---
+
 ## 📱 Android Optimizations
 
 This app avoids generic cross-platform styling in favor of a native Android look:
@@ -91,9 +96,13 @@ Ripple Effects: Material Design touch feedback on buttons.
 
 Typography: Optimized for Roboto and standard Android font weights.
 
-📄 License
+---
+
+## 📄 License
 
 This project is licensed under the MIT License. Feel free to use, modify, and distribute it as you see fit.
+
+---
 
 ## 🤝 Troubleshooting
 
@@ -108,4 +117,3 @@ If you see a "Network Request Failed," verify the server is running on your PC.
 
 ---
 
-**Would you like me to help you write the `LICENSE` file or a `.env.example` file to go along with this?**
