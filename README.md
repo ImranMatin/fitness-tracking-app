@@ -4,6 +4,12 @@ A modern, cross-platform fitness tracking solution featuring a Next.js web dashb
 
 ---
 
+## Demo link: 
+
+https://fitness-tracking-app.created.app/
+
+---
+
 ## ✨ Features
 
 * **Secure Authentication**: Full Sign-up and Sign-in flow for personalized data.
