@@ -63,34 +63,34 @@ To run this project, you will need to add the following variables to your .env f
 ## 🏃 Getting Started
 ```
 1. Prerequisites
-Install Node.js
+   Install Node.js
 
 Install the Expo Go app on your Android device from the Play Store.
 
 2. Run the Web App
-Bash
+   Bash
 
 # Navigate to the web directory
-cd apps/web
+  cd apps/web
 
 # Install dependencies
-npm install
+  npm install
 
 # Run the development server
-npm run dev
-Open http://localhost:3000 to view the dashboard.
+  npm run dev
+  Open http://localhost:3000 to view the dashboard.
 
 3. Run the Mobile App (Android)
-Bash
+   Bash
 
 # Navigate to the mobile directory
-cd apps/mobile
+  cd apps/mobile
 
 # Start Expo
-npx expo start
-Scan the QR code in your terminal using the Expo Go app.
+  npx expo start
+  Scan the QR code in your terminal using the Expo Go app.
 
-Ensure your Android device and PC are on the same Wi-Fi network.
+  Ensure your Android device and PC are on the same Wi-Fi network.
 ```
 ---
 
@@ -98,17 +98,17 @@ Ensure your Android device and PC are on the same Wi-Fi network.
 
 This app avoids generic cross-platform styling in favor of a native Android look:
 
-Elevation: Uses the elevation prop for Android to create depth.
+- Elevation: Uses the elevation prop for Android to create depth.
 
-Ripple Effects: Material Design touch feedback on buttons.
+- Ripple Effects: Material Design touch feedback on buttons.
 
-Typography: Optimized for Roboto and standard Android font weights.
+- Typography: Optimized for Roboto and standard Android font weights.
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License. Feel free to use, modify, and distribute it as you see fit.
+- This project is licensed under the MIT License. Feel free to use, modify, and distribute it as you see fit.
 
 ---
 
@@ -116,9 +116,9 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 
 If the mobile app won't load:
 
-Check that your EXPO_PUBLIC_API_URL uses your computer's IP address.
+- Check that your EXPO_PUBLIC_API_URL uses your computer's IP address.
 
-Ensure your firewall isn't blocking port 8081 or 3000.
+- Ensure your firewall isn't blocking port 8081 or 3000.
 
 If you see a "Network Request Failed," verify the server is running on your PC.
 
