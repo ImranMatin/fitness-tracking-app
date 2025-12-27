@@ -46,15 +46,16 @@ A modern, cross-platform fitness tracking solution featuring a Next.js web dashb
 
 To run this project, you will need to add the following variables to your .env file in the root or respective app folders:
 
+```
 | Variable,             |     Description                             | Default/Example                        |
 | NEXT_PUBLIC_API_URL   |     API endpoint for the Web app            | http://localhost:3000                  |
 | EXPO_PUBLIC_API_URL   |     API endpoint for Mobile (use Local IP)  | http://192.168.1.X:3000                |
 | DATABASE_URL          |     Connection string for your database     | postgresql:////user:pass@host...       |
-
+```
 ---
 
 ## 🏃 Getting Started
-
+```
 1. Prerequisites
 Install Node.js
 
@@ -84,7 +85,7 @@ npx expo start
 Scan the QR code in your terminal using the Expo Go app.
 
 Ensure your Android device and PC are on the same Wi-Fi network.
-
+```
 ---
 
 ## 📱 Android Optimizations
